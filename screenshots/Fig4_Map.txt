@@ -1,0 +1,13 @@
+Rule                             STRIDE Line  Threat
+outbound-call-without-timeout    D      28    Denial of service: hanging dependency
+route-without-auth               E      25    Elevation of privilege: missing authorisation
+route-without-auth               E      35    Elevation of privilege: missing authorisation
+route-without-auth               E      42    Elevation of privilege: missing authorisation
+error-detail-leak                I      32    Information disclosure: verbose errors
+debug-and-open-binding           I      54    Information disclosure: debug console exposed
+change-without-audit-log         R      42    Repudiation: no audit trail
+hardcoded-credential             S      6     Spoofing: stolen shared secret
+hardcoded-credential             S      7     Spoofing: stolen shared secret
+sql-built-from-text              T      19    Tampering: SQL injection
+sql-built-from-text              T      38    Tampering: SQL injection
+sql-built-from-text              T      44    Tampering: SQL injection
